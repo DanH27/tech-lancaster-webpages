@@ -68,6 +68,23 @@
     letter-spacing: 2.1px; }
 
   .tech-logo-container {
-    height: 58px; } }
+    height: 58px; }
+
+  .hero {
+    background-image: url("../images/home-page.jpg");
+    height: 528px;
+    width: 100%; }
+
+  .support-tech-community {
+    color: white;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.17;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #efe9d8;
+    width: 70%;
+    padding: 108px 49px 49px 27px; } }
 
 /*# sourceMappingURL=style.css.map */
