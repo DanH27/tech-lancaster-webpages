@@ -157,6 +157,22 @@
   .visit-site, .rsvp {
     font-weight: bold;
     line-height: 2.25;
-    color: #4e1c07; } }
+    color: #4e1c07; }
+
+  footer {
+    height: 150px;
+    display: flex; }
+
+  footer p {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #6f8998;
+    display: flex; }
+
+  .tech-lancaster-contact-copyright {
+    padding: 60px 100px; } }
 
 /*# sourceMappingURL=style.css.map */
