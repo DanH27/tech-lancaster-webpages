@@ -1,4 +1,4 @@
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 728px) {
   /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -86,6 +86,79 @@
     text-align: left;
     color: #efe9d8;
     width: 70%;
-    padding: 108px 49px 49px 27px;
+    padding: 108px 49px 50px 27px;
+  }
+  .simple-local-meetup {
+    height: 538px;
+    background-color: #ffc400;
+    border-bottom: 2px solid red;
+  }
+  .started-as-local-meetup h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.56;
+    letter-spacing: 0.9px;
+    color: #4e1c07;
+  }
+  .local-meetup-inside-container {
+    padding: 55px 33px 20px 27px;
+
+  }
+  .strived-to-be-open p {
+    font-family: DroidSerif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    margin-top: 40px;
+  }
+  .past-year-has-been-amazing p {
+    font-family: DroidSerif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    margin-top: 20px;
+  }
+  .upcoming-meetup-container {
+    height: 250px;
+    background-color: #ffc400;
+    padding:20px 38px 60px 26px;
+  }
+  .upcoming-meetup {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #eb503c;
+    padding-bottom: 10px;
+  }
+  .central-pa {
+    font-family: DroidSerif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    color: #4c1a14;
+  }
+  .october-10-date {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.78;
+    letter-spacing: 0.9px;
+  }
+  .olmstead-building-ps {
+    font-weight: bold;
+    line-height: 2.25;
+    color: #4e1c07;
+  }
+  .visit-site, .rsvp {
+    font-weight: bold;
+    line-height: 2.25;
+    color: #4e1c07;
   }
 }
