@@ -89,7 +89,7 @@
     padding: 108px 49px 50px 27px;
   }
   .simple-local-meetup {
-    height: 538px;
+    height: 620px;
     background-color: #ffc400;
     border-bottom: 2px solid red;
   }
@@ -178,5 +178,37 @@
   .tech-lancaster-contact-copyright {
     padding: 60px 100px;
 
+  }
+  .contribute {
+    padding-bottom: 20px;
+    height: 50px;
+    width: 90%;
+    margin-bottom: 30px;
+    background-color: #eb503c;
+  }
+  .contribute h2 {
+    font-family: DroidSerif;
+  	font-size: 15px;
+  	font-weight: bold;
+  	line-height: 3.83;
+  	letter-spacing: 0.9px;
+  	text-align: center;
+  	color: #efe9d8;
+  }
+  .join-us {
+    padding-bottom: 20px;
+    height: 50px;
+    width: 90%;
+    margin-bottom: 30px;
+    background-color: #eb503c;
+  }
+  .join-us h2 {
+    font-family: DroidSerif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 3.83;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #efe9d8;
   }
 }
