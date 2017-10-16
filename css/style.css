@@ -205,6 +205,70 @@
     line-height: 3.83;
     letter-spacing: 0.9px;
     text-align: center;
-    color: #efe9d8; } }
+    color: #efe9d8; }
+
+  .our-meetups {
+    height: 500px;
+    background-color: #ffc400; }
+
+  .meetup-list {
+    list-style: none;
+    width: 259px;
+    height: 321px;
+    font-family: DroidSerif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #4c1a14; }
+
+  .meetups-container {
+    padding: 50px; }
+
+  .our-meetups-header {
+    width: 140px;
+    height: 11px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #eb503c;
+    padding-bottom: 40px; }
+
+  .core-values {
+    height: 350px; }
+
+  .core-values-container {
+    padding-left: 20px; }
+
+  .core-values-heading {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #4e1c07;
+    padding-top: 40px;
+    padding-bottom: 30px; }
+
+  .core-value-mini-heading {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: 0.9px; }
+
+  .core-values-text {
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c; }
+
+  .tech-lanc-transparent {
+    padding-bottom: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
