@@ -484,6 +484,10 @@
     line-height: 1.5;
     letter-spacing: 0.9px;
     text-align: left;
-    color: #efe9d8; } }
+    color: #efe9d8; }
+
+  .calendar-footer {
+    padding-top: 20px;
+    padding-bottom: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
