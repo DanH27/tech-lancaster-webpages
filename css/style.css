@@ -382,6 +382,42 @@
     margin: 0 auto; }
 
   .calender-hero {
-    height: 250px; } }
+    height: 250px; }
+
+  .calendar-event {
+    height: 150px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px; }
+
+  .event-title {
+    font-family: DroidSerif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    color: #4c1a14; }
+
+  .event-date {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.78;
+    letter-spacing: 0.9px; }
+
+  .event-location {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 2.0;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c; }
+
+  .rsvp-calendar {
+    width: 45%;
+    display: inline-block; }
+
+  .visit-site-calendar {
+    width: 45%;
+    display: inline-block; } }
 
 /*# sourceMappingURL=style.css.map */
