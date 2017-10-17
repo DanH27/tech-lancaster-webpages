@@ -379,6 +379,9 @@
     text-align: center;
     color: #6f8998;
     width: 80%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .calender-hero {
+    height: 250px; } }
 
 /*# sourceMappingURL=style.css.map */
