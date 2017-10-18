@@ -495,6 +495,9 @@
     display: none; }
 
   .nav-button {
+    display: none; }
+
+  .on-this-page {
     display: none; } }
 /*Start of Desktop Version */
 @media only screen and (min-width: 728px) {
@@ -713,6 +716,300 @@
     padding: 60px 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+
+  /* Start of community desktop page */
+  .contribute {
+    padding-bottom: 20px;
+    height: 50px;
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: #eb503c;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+
+  .contribute h2 {
+    font-family: DroidSerif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 3.83;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #efe9d8;
+    width: 90%; }
+
+  .join-us {
+    padding-bottom: 20px;
+    height: 50px;
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: #eb503c;
+    margin-left: 10px; }
+
+  .community-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+    padding-top: 40px; }
+
+  .join-us h2 {
+    font-family: DroidSerif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 3.83;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #efe9d8;
+    width: 90%; }
+
+  .our-meetups {
+    background-color: #ffc400;
+    width: 37%; }
+
+  .meetup-list {
+    list-style: none;
+    width: 259px;
+    height: 321px;
+    font-family: DroidSerif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #4c1a14; }
+
+  .meetups-container {
+    padding: 50px; }
+
+  .our-meetups-header {
+    width: 140px;
+    height: 11px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #eb503c;
+    padding-bottom: 40px; }
+
+  .simple-local-meetup-list-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -40px; }
+
+  .simple-local-meetup {
+    background-color: #ffc400;
+    width: 70%; }
+
+  /*Core Values Section */
+  .core-values-on-this-page-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; }
+
+  .core-values {
+    height: 300px;
+    width: 70%;
+    display: inline-block; }
+
+  .core-values-container {
+    width: 70%; }
+
+  .core-values-heading {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #4e1c07;
+    padding-top: 40px;
+    padding-bottom: 30px; }
+
+  .core-value-mini-heading {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: 0.9px; }
+
+  .core-values-text {
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c; }
+
+  .tech-lanc-transparent {
+    padding-bottom: 20px; }
+
+  .on-this-page {
+    width: 38%;
+    border-left: 2px solid red;
+    padding-left: 20px; }
+
+  .on-this-page-header {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #eb503c;
+    padding-bottom: 10px; }
+
+  .on-this-page-listed-item {
+    font-family: DroidSerif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #4c1a14; }
+
+  .on-this-page-list {
+    list-style: none; }
+
+  /*Start of core purpose section */
+  .core-purpose {
+    height: 200px;
+    background-color: #e8c99d;
+    width: 100%; }
+
+  .core-purpose-heading {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #4e1c07;
+    padding-bottom: 20px; }
+
+  .core-purpose-text {
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c; }
+
+  .core-purpose-container {
+    padding-top: 50px;
+    padding-left: 70px;
+    width: 100%; }
+
+  /*Start of code of ethics section*/
+  .code-of-ethics {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto; }
+
+  .code-of-ethics-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 60%; }
+
+  .ethics-list {
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    list-style: decimal;
+    padding-left: 30px; }
+
+  .code-of-ethics-heading {
+    font-family: DroidSerif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #4e1c07;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+
+  .lancaster-tech-reserves {
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.75;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    color: #4e1c07; }
+
+  /*Start of principles section*/
+  .principles {
+    height: 200px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #ffc400; }
+
+  .principles-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 30px; }
+
+  .principles-header {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #4e1c07; }
+
+  .principles-item {
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c; }
+
+  .principles-list {
+    list-style: none; }
+
+  /*Start of footer section for community page*/
+  .community-footer {
+    height: 300px; }
+
+  .does-not-endorse {
+    padding-bottom: 50px;
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    width: 40%;
+    padding-top: 30px; }
+
+  .does-not-endorse-container {
+    width: 80%;
+    margin: 0 auto; }
+
+  .community-footer-copyright {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #6f8998;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=style.css.map */
