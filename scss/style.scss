@@ -735,7 +735,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
   }
   /* Start of community desktop page */
   .contribute {
@@ -1034,6 +1033,155 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
+  }
+  /*Start of calendar event section*/
+  .calendar-event {
+    height: 150px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .calendar-events-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .event-title {
+    font-family: DroidSerif;
+  	font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.52;
+  	letter-spacing: 1px;
+  	color: #4c1a14;
+  }
+  .event-date {
+    font-size: 18px;
+  	font-weight: bold;
+  	line-height: 1.78;
+  	letter-spacing: 0.9px;
+  }
+  .event-location {
+  	font-family: Lato;
+  	font-size: 16px;
+  	line-height: 2.0;
+  	letter-spacing: 0.8px;
+  	text-align: left;
+  	color: #021d2c;
+  }
+  .rsvp-calendar {
+    width: 45%;
+    display: inline-block;
+  }
+  .visit-site-calendar {
+    width: 45%;
+    display: inline-block;
+  }
+  /*Start of get involved and start a meetup section in calendar*/
+  .get-involved {
+    height: 100%;
+    width: 40%;
+    background-color: #eb503c;
+    display: flex;
+    flex-direction: row;
+    justify-content:  flex-start;
+  }
+  .get-involved-start-meetup {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 321px;
+  }
+  .get-involved-container {
+    padding: 30px;
+  }
+  .get-involved-header {
+    font-family: DroidSerif;
+  	font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.52;
+  	letter-spacing: 1px;
+    color: #efe9d8;
+  }
+  .get-involved-content {
+    font-family: Lato;
+  	font-size: 18px;
+  	line-height: 1.5;
+  	letter-spacing: 0.9px;
+  	text-align: left;
+  	color: #efe9d8;
+  }
+  .get-in-touch {
+    font-size: 16px;
+  	line-height: 1.69;
+  	letter-spacing: 0.8px;
+    color: #efe9d8;
+  }
+  .start-a-meetup {
+    width: 100%;
+    background-color: #a13729;
+    width: 57%;
+    display: flex;
+  }
+  .start-a-meetup-container {
+    padding: 30px;
+  }
+  .start-a-meetup-header {
+    font-family: DroidSerif;
+  	font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.52;
+  	letter-spacing: 1px;
+    color: #efe9d8;
+    padding-bottom: 5px;
+  }
+  .start-a-meetup-content {
+    font-family: Lato;
+  	font-size: 18px;
+  	line-height: 1.5;
+  	letter-spacing: 0.9px;
+  	text-align: left;
+  	color: #efe9d8;
+    padding-bottom: 25px;
+  }
+  .check-it-out {
+    font-family: Lato;
+  	font-size: 16px;
+  	line-height: 1.5;
+  	letter-spacing: 0.9px;
+  	text-align: left;
+  	color: #efe9d8;
+  }
+  /* Calendar Footer Section */
+  .community-footer {
+    height: 300px;
+  }
+  .does-not-endorse {
+    padding-bottom: 100px;
+    font-family: DroidSerif;
+  	font-size: 16px;
+  	line-height: 1.5;
+  	letter-spacing: 0.8px;
+  	text-align: left;
+  	color: #021d2c;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .community-footer-copyright {
+    font-family: Lato;
+  	font-size: 16px;
+  	line-height: 1.75;
+  	letter-spacing: 0.8px;
+  	text-align: center;
+  	color: #6f8998;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 21px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
 }
