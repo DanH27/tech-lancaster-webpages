@@ -1,0 +1,84 @@
+//Mixin of the tech class
+@mixin tech {
+  font-weight: normal;
+  color: #064159;
+  line-height: 1.29;
+  letter-spacing: 2.1px;
+}
+
+@media only screen and (max-width: 728px) {
+  /*Mobile Header */
+  .tech-logo-container {
+    height: 58px;
+    .tech-lancaster-logo{
+      background-color: #ffab00;
+      font-size: 21px;
+      text-align: left;
+      font-family: 'Lato', sans-serif;
+      color: #064159;
+      padding: 22px 94px 21px 24px;
+      font-weight: 900;
+      .tech {
+        font-weight: normal;
+        color: #064159;
+        line-height: 1.29;
+        letter-spacing: 2.1px;
+      }
+    }
+    .nav-buttons {
+      display: none;
+    }
+    .nav-button {
+      display: none;
+    }
+  }
+
+
+
+}
+@media only screen and (min-width: 728px) {
+  /*Desktop Version*/
+
+
+  .tech-logo-container {
+    height: 58px;
+    width: 100%;
+    background-color: #ffab00;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    .tech-lancaster-logo{
+      background-color: #ffab00;
+      font-size: 21px;
+      text-align: left;
+      font-family: 'Lato', sans-serif;
+      color: #064159;
+      display: inline-block;
+      font-weight: 900;
+      padding-top: 20px;
+      .tech {
+        @include tech;
+      }
+    }
+    .nav-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+    }
+    .nav-button a{
+      padding-left: 30px;
+      padding-right: 30px;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.69;
+      letter-spacing: 0.8px;
+      color: #72261d;
+      text-decoration: none;
+    }
+  }
+
+}
