@@ -133,7 +133,7 @@
     color: white;
   }
   .our-meetups {
-    height: 500px;
+    height: 100%;
     background-color: #ffc400;
 
     .meetups-container {
@@ -455,6 +455,7 @@
   .local-meetup-inside-container {
     padding: 55px 33px 20px 27px;
 
+
   }
   .strived-to-be-open p {
     font-family: DroidSerif;
@@ -595,6 +596,8 @@
     letter-spacing: 1px;
     text-align: left;
     color: #4c1a14;
+    border-left: 2px solid red;
+    padding-left: 30px;
   }
   .meetup-list li a{
     text-decoration: none;
