@@ -1,0 +1,169 @@
+@media only screen and (max-width: 728px) {
+
+.tech-lancaster-contact-copyright {
+  padding: 60px 100px;
+  .footer-twitter {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #6f8998;
+    display: flex;
+  }
+  .footer-copyright {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #6f8998;
+    display: flex;
+
+}
+}
+
+.community-footer {
+  height: 300px;
+  .does-not-endorse {
+    padding-bottom: 100px;
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .community-footer-copyright {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #6f8998;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+}
+.community-footer-copyright {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #6f8998;
+  width: 80%;
+  margin: 0 auto;
+}
+.calendar-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+}
+/*Footer for Desktop versions */
+@media only screen and (min-width: 728px) {
+  .tech-lancaster-contact-copyright {
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .footer-twitter {
+      font-family: Lato;
+      font-size: 16px;
+      line-height: 1.75;
+      letter-spacing: 0.8px;
+      color: #6f8998;
+
+    }
+    .footer-copyright {
+      font-family: Lato;
+      font-size: 16px;
+      line-height: 1.75;
+      letter-spacing: 0.8px;
+      color: #6f8998;
+
+    }
+  }
+
+
+
+
+
+  /*Start of footer section for community page*/
+  .community-footer {
+    height: 300px;
+    .does-not-endorse-container {
+      width: 80%;
+      margin: 0 auto;
+      .does-not-endorse {
+        padding-bottom: 50px;
+        font-family: DroidSerif;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.8px;
+        text-align: left;
+        color: #021d2c;
+        width: 40%;
+        padding-top: 30px;
+      }
+    }
+    .community-footer-copyright {
+      font-family: Lato;
+      font-size: 16px;
+      line-height: 1.75;
+      letter-spacing: 0.8px;
+      text-align: center;
+      color: #6f8998;
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+  }
+  /*Calendar footer */
+  .community-footer-copyright {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #6f8998;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .calendar-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

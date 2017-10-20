@@ -1,0 +1,934 @@
+@media only screen and (max-width: 728px) {
+  /*Top of the homepage */
+  .support-tech-community {
+    color: white;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.17;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #efe9d8;
+    width: 70%;
+    padding: 108px 49px 50px 27px;
+  }
+  /*Homepage content */
+  .simple-local-meetup {
+    height: 620px;
+    background-color: #ffc400;
+    border-bottom: 2px solid red;
+    .local-meetup-inside-container {
+      padding: 55px 33px 20px 27px;
+      .started-as-local-meetup h2 {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.56;
+        letter-spacing: 0.9px;
+        color: #4e1c07;
+      }
+    }
+  }
+
+  .strived-to-be-open p {
+    font-family: DroidSerif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    margin-top: 40px;
+  }
+  .past-year-has-been-amazing p {
+    font-family: DroidSerif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    margin-top: 20px;
+  }
+  .upcoming-meetup-container {
+    height: 250px;
+    background-color: #ffc400;
+    padding:20px 38px 60px 26px;
+
+    .upcoming-meetup {
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.5;
+      letter-spacing: 0.8px;
+      text-align: left;
+      color: #eb503c;
+      padding-bottom: 10px;
+    }
+    .central-pa {
+      font-family: DroidSerif;
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 1.52;
+      letter-spacing: 1px;
+      color: #4c1a14;
+    }
+    .october-10-date {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.78;
+      letter-spacing: 0.9px;
+    }
+    .olmstead-building-ps {
+      font-weight: bold;
+      line-height: 2.25;
+      color: #4e1c07;
+    }
+  }
+  .visit-site, .rsvp {
+    font-weight: bold;
+    line-height: 2.25;
+    color: #4e1c07;
+  }
+  .visit-site a, .rsvp a {
+    text-decoration: none;
+    color: #021d2c;
+  }
+  /*Community page content */
+  .contribute {
+    padding-bottom: 20px;
+    height: 50px;
+    width: 90%;
+    margin-bottom: 30px;
+    background-color: #eb503c;
+  }
+  .contribute h2 {
+    font-family: DroidSerif;
+  	font-size: 15px;
+  	font-weight: bold;
+  	line-height: 3.83;
+  	letter-spacing: 0.9px;
+  	text-align: center;
+  	color: #efe9d8;
+  }
+  .contribute h2 a{
+    text-decoration: none;
+    color: white;
+  }
+  .join-us {
+    padding-bottom: 20px;
+    height: 50px;
+    width: 90%;
+    margin-bottom: 30px;
+    background-color: #eb503c;
+  }
+  .join-us h2 {
+    font-family: DroidSerif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 3.83;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #efe9d8;
+  }
+  .join-us h2 a{
+    text-decoration: none;
+    color: white;
+  }
+  .our-meetups {
+    height: 500px;
+    background-color: #ffc400;
+
+    .meetups-container {
+      padding: 50px;
+
+      .our-meetups-header {
+        width: 140px;
+        height: 11px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: 0.8px;
+        text-align: left;
+        color: #eb503c;
+        padding-bottom: 40px;
+      }
+      .meetup-list {
+        list-style: none;
+        width: 259px;
+        height: 321px;
+        font-family: DroidSerif;
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 1.71;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #4c1a14;
+      }
+    }
+  }
+  .meetup-list li a{
+    text-decoration: none;
+    color: #4c1a14;
+  }
+  /*Community Core Values Section */
+  .core-values {
+    height: 300px;
+  }
+  .core-values-container {
+    padding-left: 20px;
+  }
+  .core-values-heading {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #4e1c07;
+    padding-top: 40px;
+    padding-bottom: 30px
+  }
+  .core-value-mini-heading {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: 0.9px;
+  }
+  .core-values-text {
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+  }
+  .tech-lanc-transparent {
+    padding-bottom: 20px;
+  }
+  .core-purpose {
+    height: 200px;
+    background-color: #e8c99d;
+  }
+  .core-purpose-heading {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #4e1c07;
+    padding-bottom: 20px;
+  }
+  .core-purpose-text {
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+  }
+  .core-purpose-container {
+    padding: 30px;
+  }
+  .code-of-ethics {
+    height: 100%;
+  }
+  .code-of-ethics-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .ethics-list {
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    list-style: decimal;
+    padding-left: 30px;
+
+  }
+  .code-of-ethics-heading {
+    font-family: DroidSerif;
+    font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.33;
+  	letter-spacing: 1px;
+  	color: #4e1c07;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .lancaster-tech-expects {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+  }
+  .lancaster-tech-reserves {
+    font-weight: bold;
+	  font-style: italic;
+    line-height: 1.75;
+    font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.33;
+  	letter-spacing: 1px;
+  	color: #4e1c07;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .principles {
+    height: 150px;
+    margin-left: 20px;
+
+  }
+  .principles-header {
+    font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.33;
+  	letter-spacing: 1px;
+  	color: #4e1c07;
+  }
+  .principles-list {
+    list-style: none;
+  }
+  .principles-item {
+    font-family: DroidSerif;
+  	font-size: 16px;
+  	line-height: 1.5;
+  	letter-spacing: 0.8px;
+  	text-align: left;
+  	color: #021d2c;
+  }
+  .on-this-page {
+    display: none;
+  }
+  /*Calendar page content*/
+}
+
+.calendar-event {
+  height: 150px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.event-title {
+  font-family: DroidSerif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.52;
+  letter-spacing: 1px;
+  color: #4c1a14;
+}
+.event-date {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.78;
+  letter-spacing: 0.9px;
+}
+.event-location {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 2.0;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c;
+}
+.rsvp-calendar {
+  width: 45%;
+  display: inline-block;
+}
+.visit-site-calendar {
+  width: 45%;
+  display: inline-block;
+}
+.get-involved {
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #eb503c;
+}
+.get-involved-container {
+  padding: 30px;
+}
+.get-involved-header {
+  font-family: DroidSerif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.52;
+  letter-spacing: 1px;
+  color: #efe9d8;
+}
+.get-involved-content {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #efe9d8;
+}
+.get-in-touch {
+  font-size: 16px;
+  line-height: 1.69;
+  letter-spacing: 0.8px;
+  color: #efe9d8;
+}
+.get-in-touch a{
+  text-decoration: none;
+  color: white;
+}
+.start-a-meetup {
+  height: 300px;
+  background-color: #a13729;
+  width: 100%;
+  margin: 0 auto;
+}
+.start-a-meetup-container {
+  padding: 30px;
+}
+.start-a-meetup-header {
+  font-family: DroidSerif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.52;
+  letter-spacing: 1px;
+  color: #efe9d8;
+  padding-bottom: 5px;
+}
+.start-a-meetup-content {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #efe9d8;
+  padding-bottom: 25px;
+}
+.check-it-out {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #efe9d8;
+}
+.check-it-out a{
+  text-decoration: none;
+  color: white;
+}
+/*Start of Desktop Version */
+@media only screen and (min-width: 728px) {
+  .support-tech-community {
+    color: white;
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.17;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #efe9d8;
+    width: 50%;
+    padding: 108px 49px 50px 27px;
+  }
+  .simple-local-upcoming-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -40px;
+  }
+  .simple-local-meetup {
+    width: 45%;
+    background-color: #ffc400;
+  }
+  .upcoming-meetup-container {
+    width: 45%;
+  }
+  .started-as-local-meetup h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.56;
+    letter-spacing: 0.9px;
+    color: #4e1c07;
+  }
+  .local-meetup-inside-container {
+    padding: 55px 33px 20px 27px;
+
+  }
+  .strived-to-be-open p {
+    font-family: DroidSerif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    margin-top: 40px;
+  }
+  .past-year-has-been-amazing p {
+    font-family: DroidSerif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    margin-top: 20px;
+  }
+  .upcoming-meetup-container {
+    background-color: #ffc400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .upcoming-meetup {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #eb503c;
+    padding-bottom: 10px;
+  }
+  .upcoming-meetup-inside {
+    height: 80%;
+    border-left: 2px solid red;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  .central-pa {
+    font-family: DroidSerif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    color: #4c1a14;
+  }
+  .october-10-date {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.78;
+    letter-spacing: 0.9px;
+  }
+  .olmstead-building-ps {
+    font-weight: bold;
+    line-height: 2.25;
+    color: #4e1c07;
+  }
+  .visit-site, .rsvp {
+    font-weight: bold;
+    line-height: 2.25;
+    color: #4e1c07;
+  }
+  .visit-site a, .rsvp a {
+    text-decoration: none;
+    color: #021d2c;
+  }
+  /* Start of community desktop page */
+  .contribute {
+    padding-bottom: 20px;
+    height: 50px;
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: #eb503c;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .contribute h2 {
+    font-family: DroidSerif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 3.83;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #efe9d8;
+    width: 90%;
+  }
+  .contribute h2 a {
+    text-decoration: none;
+    color: white;
+  }
+  .join-us {
+    padding-bottom: 20px;
+    height: 50px;
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: #eb503c;
+    margin-left: 10px;
+  }
+  .community-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+    padding-top: 40px;
+  }
+  .join-us h2 {
+    font-family: DroidSerif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 3.83;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #efe9d8;
+    width: 90%;
+  }
+  .join-us h2 a{
+    text-decoration: none;
+    color: white;
+  }
+  .our-meetups {
+    background-color: #ffc400;
+    width: 37%;
+  }
+  .meetup-list {
+    list-style: none;
+    width: 259px;
+    height: 321px;
+    font-family: DroidSerif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #4c1a14;
+  }
+  .meetup-list li a{
+    text-decoration: none;
+    color: #4c1a14;
+  }
+  .meetups-container {
+    padding: 50px;
+
+  }
+  .our-meetups-header {
+    width: 140px;
+    height: 11px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #eb503c;
+    padding-bottom: 40px;
+  }
+  .simple-local-meetup-list-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -40px;
+  }
+  .simple-local-meetup {
+    background-color: #ffc400;
+    width: 70%;
+  }
+  /*Core Values Section */
+  .core-values-on-this-page-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+  .core-values {
+    height: 300px;
+    width: 70%;
+    display: inline-block;
+  }
+  .core-values-container {
+    width: 70%;
+  }
+  .core-values-heading {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #4e1c07;
+    padding-top: 40px;
+    padding-bottom: 30px
+  }
+  .core-value-mini-heading {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: 0.9px;
+  }
+  .core-values-text {
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+  }
+  .tech-lanc-transparent {
+    padding-bottom: 20px;
+  }
+  .on-this-page {
+    width: 38%;
+    border-left: 2px solid red;
+    padding-left: 20px;
+
+  }
+  .on-this-page-header {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #eb503c;
+    padding-bottom: 10px;
+  }
+  .on-this-page-listed-item {
+    font-family: DroidSerif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #4c1a14;
+  }
+  .on-this-page-list {
+    list-style: none;
+  }
+  /*Start of core purpose section */
+  .core-purpose {
+    height: 200px;
+    background-color: #e8c99d;
+    width: 100%;
+  }
+  .core-purpose-heading {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #4e1c07;
+    padding-bottom: 20px;
+  }
+  .core-purpose-text {
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+  }
+  .core-purpose-container {
+    padding-top: 50px;
+    padding-left: 70px;
+    width: 100%;
+  }
+  /*Start of code of ethics section*/
+  .code-of-ethics {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .code-of-ethics-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 60%;
+  }
+  .ethics-list {
+    font-family: DroidSerif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    list-style: decimal;
+    padding-left: 30px;
+
+  }
+  .code-of-ethics-heading {
+    font-family: DroidSerif;
+    font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.33;
+  	letter-spacing: 1px;
+  	color: #4e1c07;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .lancaster-tech-reserves {
+    font-weight: bold;
+	  font-style: italic;
+    line-height: 1.75;
+    font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.33;
+  	letter-spacing: 1px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  	color: #4e1c07;
+  }
+  /*Start of principles section*/
+  .principles {
+    height: 200px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #ffc400;
+  }
+  .principles-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .principles-header {
+    font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.33;
+  	letter-spacing: 1px;
+  	color: #4e1c07;
+  }
+  .principles-item {
+    font-family: DroidSerif;
+  	font-size: 16px;
+  	line-height: 1.5;
+  	letter-spacing: 0.8px;
+  	text-align: left;
+  	color: #021d2c;
+  }
+  .principles-list {
+    list-style: none;
+  }
+  /*Start of calendar event section*/
+  .calendar-event {
+    height: 150px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .calendar-events-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .event-title {
+    font-family: DroidSerif;
+  	font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.52;
+  	letter-spacing: 1px;
+  	color: #4c1a14;
+  }
+  .event-date {
+    font-size: 18px;
+  	font-weight: bold;
+  	line-height: 1.78;
+  	letter-spacing: 0.9px;
+  }
+  .event-location {
+  	font-family: Lato;
+  	font-size: 16px;
+  	line-height: 2.0;
+  	letter-spacing: 0.8px;
+  	text-align: left;
+  	color: #021d2c;
+  }
+  .rsvp-calendar {
+    width: 45%;
+    display: inline-block;
+  }
+  .visit-site-calendar {
+    width: 45%;
+    display: inline-block;
+  }
+  /*Start of get involved and start a meetup section in calendar*/
+  .get-involved {
+    height: 100%;
+    width: 40%;
+    background-color: #eb503c;
+    display: flex;
+    flex-direction: row;
+    justify-content:  flex-start;
+  }
+  .get-involved-start-meetup {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 321px;
+  }
+  .get-involved-container {
+    padding: 30px;
+  }
+  .get-involved-header {
+    font-family: DroidSerif;
+  	font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.52;
+  	letter-spacing: 1px;
+    color: #efe9d8;
+  }
+  .get-involved-content {
+    font-family: Lato;
+  	font-size: 18px;
+  	line-height: 1.5;
+  	letter-spacing: 0.9px;
+  	text-align: left;
+  	color: #efe9d8;
+  }
+  .get-in-touch {
+    font-size: 16px;
+  	line-height: 1.69;
+  	letter-spacing: 0.8px;
+    color: #efe9d8;
+  }
+  .start-a-meetup {
+    width: 100%;
+    background-color: #a13729;
+    width: 57%;
+    display: flex;
+    height: 100%;
+  }
+  .start-a-meetup-container {
+    padding: 30px;
+  }
+  .start-a-meetup-header {
+    font-family: DroidSerif;
+  	font-size: 21px;
+  	font-weight: bold;
+  	line-height: 1.52;
+  	letter-spacing: 1px;
+    color: #efe9d8;
+    padding-bottom: 5px;
+  }
+  .start-a-meetup-content {
+    font-family: Lato;
+  	font-size: 18px;
+  	line-height: 1.5;
+  	letter-spacing: 0.9px;
+  	text-align: left;
+  	color: #efe9d8;
+    padding-bottom: 25px;
+  }
+  .check-it-out {
+    font-family: Lato;
+  	font-size: 16px;
+  	line-height: 1.5;
+  	letter-spacing: 0.9px;
+  	text-align: left;
+  	color: #efe9d8;
+  }
+  .check-it-out a{
+    text-decoration: none;
+    color: white;
+  }
+
+}
